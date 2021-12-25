@@ -15,11 +15,16 @@ $body-font: "Poppins", sans-serif;
 $heading-font: "PT Serif", serif;
 $footer-font: "Montserrat", sans-serif;
 $big-font-size: 2.25rem;
-$medium-font-size: 1.125rem;
 $normal-font-size: 1rem;
-$small-font-size: 0.75rem;
 
-@media screen and (max-width: 767.99px) {
-  $medium-font-size: 0.875rem;
-  $small-font-size: 0.625rem;
+:root {
+  --medium-font-size: 1.125rem;
+  --small-font-size: 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --medium-font-size: 0.875rem;
+    --small-font-size: 0.625rem;
+  }
 }
