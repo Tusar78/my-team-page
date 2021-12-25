@@ -1,0 +1,25 @@
+// Add "PT-serif", "Poppins" & "Montserrat" font from fonts.google.com
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@700&family=Poppins:wght@400;600&display=swap");
+
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+// Colors
+$black-color: #000;
+$light-color: #a9a9a9;
+$body-color: #fafafa;
+
+// Font & Typography
+$body-font: "Poppins", sans-serif;
+$heading-font: "PT Serif", serif;
+$footer-font: "Montserrat", sans-serif;
+$big-font-size: 2.25rem;
+$medium-font-size: 1.125rem;
+$normal-font-size: 1rem;
+$small-font-size: 0.75rem;
+
+@media screen and (max-width: 767.99px) {
+  $medium-font-size: 0.875rem;
+  $small-font-size: 0.625rem;
+}
