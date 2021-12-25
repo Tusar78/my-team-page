@@ -1,0 +1,49 @@
+// Import variables
+@import "./partials/variable";
+
+// Base
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: {
+    family: $body-font;
+    size: $normal-font-size;
+  }
+  background-color: $body-color;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+// Layout
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
