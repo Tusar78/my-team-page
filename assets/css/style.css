@@ -43,7 +43,7 @@ img {
 
 .section {
   margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 .bd-grid, .team {
@@ -84,20 +84,12 @@ img {
   margin: 0.625rem 0 3rem;
 }
 
-.team__images img {
-  width: 150px;
-}
-
 .team__images {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 3.2rem 3.5rem;
-}
-
-.team__images img {
-  width: 150px;
 }
 
 .team__image {
@@ -168,8 +160,38 @@ img {
           transform: rotate(90deg) translate(20px, -40px);
 }
 
+.footer {
+  height: 2rem;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.footer p a {
+  display: inline-block;
+  color: #9d4edd;
+}
+
+@media screen and (min-width: 576px) {
+  .team {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team__images {
+    grid-gap: 4rem 5.5rem;
+  }
+  .team__image img {
+    min-width: 150px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .team {
+    max-width: 750px;
     row-gap: 4rem;
     margin-left: auto;
     margin-right: auto;
@@ -186,9 +208,6 @@ img {
         grid-template-columns: repeat(3, 1fr);
     grid-gap: 7rem;
   }
-  .team__images img {
-    width: 338px;
-  }
   .team__image-name {
     margin-top: 1rem;
   }
@@ -198,14 +217,20 @@ img {
   }
   .team__image:nth-child(2) {
     top: 80px;
+    left: 0;
   }
   .team__image:nth-child(2) .team__image-position {
+    top: 0;
     -webkit-transform: rotate(90deg) translate(32px, -58px);
             transform: rotate(90deg) translate(32px, -58px);
   }
   .team__image:nth-child(3) .team__image-position {
     -webkit-transform: rotate(90deg) translate(23px, -48px);
             transform: rotate(90deg) translate(23px, -48px);
+  }
+  .team__image:nth-child(4) {
+    top: 0;
+    left: 0;
   }
   .team__image:nth-child(4) .team__image-position {
     -webkit-transform: rotate(90deg) translate(30px, -55px);
@@ -217,6 +242,10 @@ img {
   .team__image:nth-child(5) .team__image-position {
     -webkit-transform: rotate(90deg) translate(23px, -50px);
             transform: rotate(90deg) translate(23px, -50px);
+  }
+  .team__image:nth-child(6) {
+    top: 0;
+    left: 0;
   }
   .team__image:nth-child(6) .team__image-position {
     -webkit-transform: rotate(90deg) translate(23px, -50px);
