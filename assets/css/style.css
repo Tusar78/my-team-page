@@ -93,7 +93,7 @@ img {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3.5rem;
+  grid-gap: 3.2rem 3.5rem;
 }
 
 .team__images img {
@@ -125,7 +125,7 @@ img {
 }
 
 .team__image:nth-child(2) {
-  top: 45px;
+  top: 50px;
   left: -19px;
 }
 
@@ -135,27 +135,37 @@ img {
 }
 
 .team__image:nth-child(3) .team__image-position {
-  -webkit-transform: rotate(90deg) translate(23px, -48px);
-          transform: rotate(90deg) translate(23px, -48px);
+  -webkit-transform: rotate(90deg) translate(19px, -39px);
+          transform: rotate(90deg) translate(19px, -39px);
+}
+
+.team__image:nth-child(4) {
+  top: 50px;
+  left: -19px;
 }
 
 .team__image:nth-child(4) .team__image-position {
-  -webkit-transform: rotate(90deg) translate(30px, -55px);
-          transform: rotate(90deg) translate(30px, -55px);
+  -webkit-transform: rotate(90deg) translate(23px, -45px);
+          transform: rotate(90deg) translate(23px, -45px);
 }
 
 .team__image:nth-child(5) {
-  top: 80px;
+  top: 0;
 }
 
 .team__image:nth-child(5) .team__image-position {
-  -webkit-transform: rotate(90deg) translate(23px, -50px);
-          transform: rotate(90deg) translate(23px, -50px);
+  -webkit-transform: rotate(90deg) translate(20px, -40px);
+          transform: rotate(90deg) translate(20px, -40px);
+}
+
+.team__image:nth-child(6) {
+  top: 50px;
+  left: -19px;
 }
 
 .team__image:nth-child(6) .team__image-position {
-  -webkit-transform: rotate(90deg) translate(23px, -50px);
-          transform: rotate(90deg) translate(23px, -50px);
+  -webkit-transform: rotate(90deg) translate(20px, -40px);
+          transform: rotate(90deg) translate(20px, -40px);
 }
 
 @media screen and (min-width: 768px) {
