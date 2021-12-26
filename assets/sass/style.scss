@@ -153,7 +153,9 @@ img {
   p {
     font-family: $footer-font;
     font-size: 0.875rem;
+    font-weight: $semi-bold;
     text-align: center;
+    color: $light-color;
 
     a {
       display: inline-block;

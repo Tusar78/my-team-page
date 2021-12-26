@@ -167,7 +167,9 @@ img {
 .footer p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
+  font-weight: 600;
   text-align: center;
+  color: #a9a9a9;
 }
 
 .footer p a {
