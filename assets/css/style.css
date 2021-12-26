@@ -43,7 +43,7 @@ img {
 
 .section {
   margin-top: 4rem;
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
 }
 
 .bd-grid, .team {
@@ -252,5 +252,17 @@ img {
   .team__image:nth-child(6) .team__image-position {
     -webkit-transform: rotate(90deg) translate(23px, -50px);
             transform: rotate(90deg) translate(23px, -50px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .team {
+    max-width: 1024px;
   }
 }
